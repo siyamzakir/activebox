@@ -1,0 +1,134 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    
+.mainmenu {
+  margin-top: 30px;
+}
+.is-sticky .mainmenu ul.nav.navbar-nav {
+  float: right;
+  margin-top: -44px;
+    margin-right: 0;
+}
+    
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.section-padding {
+  padding: 20px 0;
+}
+body {
+    font-size: 13px;
+}     
+.mainmenu {
+  margin-top: 7px;
+}
+.is-sticky .logo {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}    
+.mainmenu ul.nav.navbar-nav {
+  float: none;
+  text-align: right;
+  margin-top: -44px;
+}
+.navbar-nav li a {
+  padding: 15px 8px;
+}
+.feature-item {
+  margin: 10px 0;
+}   
+    
+    
+}
+    
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+.section-padding {
+  padding: 30px 0;
+}
+body {
+    font-size: 13px;
+}  
+.navbar-header {
+  float: right;
+  margin-top: -27px;
+} 
+.navbar-toggle {
+  margin-top: -30px;
+}    
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.is-sticky .navbar-toggle {
+  margin-top: -5px;
+}  
+.mainmenu ul.nav.navbar-nav li {
+    background-color: #333;
+    border-bottom: 1px solid #111;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    max-width: 50%;
+    position: relative;
+    text-align: center;
+}    
+.mainmenu ul.nav.navbar-nav li a {
+  padding: 5px 30px;
+}        
+.is-sticky .logo img {
+    height: 20px;
+}   
+
+    
+.header-area {
+ min-height: auto;
+}    
+.header-text {
+  margin: 0 10px;
+  padding: 120px 0 0;
+}    
+.header-text h2 {
+  font-size: 22px;
+}    
+.header-text p {
+  font-size: 16px;
+  margin-bottom: 50px;
+}   
+.header-text .btn.btn-large {
+  margin-bottom: 30px;
+}  
+.btn-large {
+  padding: 10px 20px;
+}   
+    
+.profile_sec {
+    text-align: center;
+}  
+.testmonial-area p {
+  font: italic 20px "Cardo",Georgia,"Times New Roman",serif;
+}
+.testmonial-area cite {
+  font-size: 10px;
+  font-weight: 400;
+}    
+.download_txt h2 {
+  font-size: 20px;
+}  
+.download_txt .btn.btn-large {
+  padding: 10px;
+}  
+.contact-item {
+    padding: 10px 0px;
+} 
+
+    
+    
+    
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
